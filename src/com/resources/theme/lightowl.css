@@ -1,0 +1,12 @@
+/*
+    Created on : 23, March 2021, 12:30:53 AM
+    Author     : CMD_TEAM
+*/
+
+
+/*Below are color constants we will be using for the light theme of the application*/
+* {
+    -fx-primary :
+    -fx-secondary :
+    -fx-primaryText :
+}
