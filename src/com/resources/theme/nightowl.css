@@ -1,0 +1,18 @@
+/*
+    Created on : 23, March 2021, 12:31:24 AM
+    Author     : CMD_TEAM
+
+*/
+
+
+/*Below are color constants we will be using for the
+  dark background theme of the application*/
+
+* {
+    -fx-primary : #2A2E37;
+    -fx-secondary : #FFFF8D;
+    -fx-primaryText : #B2B2B2;
+    -fx-blue: #1976D2;
+    -fx-red: #FF0000;
+    -fx-color-1:#1976D2;
+}
