@@ -18,7 +18,7 @@
                <children>
                   <HBox fx:id="hBox" alignment="CENTER_RIGHT" prefHeight="59.0" prefWidth="424.0" VBox.vgrow="NEVER">
                      <children>
-                        <Label fx:id="minimizeLabel" alignment="CENTER" prefHeight="45.0" prefWidth="36.0" text="-">
+                        <Label fx:id="minimizeLabel" alignment="CENTER" onMouseClicked="#minimizeLabelPressed" prefHeight="45.0" prefWidth="36.0" text="-">
                            <font>
                               <Font name="System Bold" size="30.0" />
                            </font>
