@@ -5,7 +5,6 @@ import com.jfoenix.controls.JFXDialog;
 import com.jfoenix.controls.JFXDialogLayout;
 import com.jfoenix.controls.events.JFXDialogEvent;
 import javafx.scene.Node;
-import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 import javafx.scene.effect.BoxBlur;
 import javafx.scene.input.MouseEvent;
@@ -17,8 +16,6 @@ import java.util.List;
 public class AlertMaker {
 
     private static AlertMaker mInstance;
-
-    private String defaultColorLabel_X;
 
 
 

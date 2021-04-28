@@ -9,6 +9,7 @@ import javafx.scene.control.Label;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.StackPane;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 import java.util.Arrays;
@@ -19,10 +20,11 @@ public class AddStudentController {
     private StackPane rootPane;
 
     @FXML
-    private HBox hBox;
+    private VBox vBox;
 
     @FXML
     private Label closeLabel, minimizeLabel;
+
 
 
     //    Method implementation abstracted using the RequestHandler Singleton class
@@ -30,7 +32,7 @@ public class AddStudentController {
     public void closeLabelPressed() {
         JFXButton yesButton = new JFXButton("Okay");
         JFXButton cancelButton = new JFXButton("Cancel");
-        AlertMaker.showMaterialDialog(rootPane, hBox, Arrays.asList(yesButton, cancelButton), "Exit", "Are you sure you want to exit?");
+        AlertMaker.showMaterialDialog(rootPane, vBox, Arrays.asList(yesButton, cancelButton), "Exit", "Are you sure you want to exit?");
         yesButton.setOnAction(event -> Platform.exit());
     }
 
